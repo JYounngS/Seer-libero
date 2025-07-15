@@ -27,6 +27,7 @@ Please update the following:
     * **resume_from_checkpoint** to the location of your fine-tuned checkpoint.
     * **vit_checkpoint_path** to the location of your ViT checkpoint (downloaded from the [website](https://drive.google.com/file/d/1bSsvRI4mDM3Gg51C6xO0l9CbojYw3OEt/view?usp=sharing)). Recommend to be stored in ```checkpoints/vit_mae/mae_pretrain_vit_base.pth```.
     * **libero_path** to the location of LIBERO dir.
+    * **root_dir** to the location of LIBERO datasets, which includes the libero_10_converted.```(You can find this in /data1/shujunyang/libero).```
 
 ### Fine-tune the VLA to value model
 
