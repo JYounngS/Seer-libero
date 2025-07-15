@@ -20,7 +20,7 @@ pip install -e .
 ### Notice
 
 For convenience, some checkpoints, such as the MAE-pretrained ViT-B model, are provided for manual download. Users must update the following paths accordingly. Relevant checkpoints can be acquired from the [website](https://drive.google.com/drive/folders/1zwqGvKKtjyuWdDaNSLVGJprJMPoSqAPk?usp=drive_link).
-* :exclamation: **pretrain.sh, finetune.sh, scratch, eval.sh:**
+* :exclamation: **pretrain.sh, finetune.sh, scratch, eval.sh, q_finetune.sh, q_eval.sh:**
 Please update the following:
     * **save_checkpoint_path** to the parent directory where your experiment checkpoints are saved.  Recommend to create a ```checkpoints``` folder in the project root directory.
     * **finetune_from_pretrained_ckpt** to the location of your pre-trained checkpoint.```(You can find this in /data2/shujunyang/Seer-libero/checkpoints of server 219).```
