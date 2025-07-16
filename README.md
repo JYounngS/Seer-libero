@@ -41,3 +41,6 @@ bash scripts/LIBERO_LONG/Seer/q_finetune.sh
 bash scripts/LIBERO_LONG/Seer/q_eval.sh
 ```
 
+You can refer to the loss curve to decide which checkpoint to use.
+![image](https://github.com/JYounngS/Seer-libero/blob/master/loss.png)
+
